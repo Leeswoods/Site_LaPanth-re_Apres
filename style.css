@@ -362,6 +362,11 @@ a:hover {
     z-index: 2;
 }
 
+/* LOGO PANTHERE ARRONDI => forme de cercle */
+.photo-circle{
+    border-radius: 4rem;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
