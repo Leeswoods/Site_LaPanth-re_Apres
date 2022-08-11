@@ -367,6 +367,24 @@ a:hover {
     border-radius: 4rem;
 }
 
+/* Images  transformés en texte */
+.texte-main__description-agence{
+    font-size: 2rem;
+}
+.agence-citations{
+    font-weight: 600;
+    font-style: italic;
+}
+.agence-citations-client-pdg{
+    margin-top: -1rem;
+}
+.description-agence-introduction{
+    font-size: 20px;
+}
+.agence-portefolio-clien{
+    font-size: 23px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
