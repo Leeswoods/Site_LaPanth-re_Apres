@@ -379,7 +379,7 @@ a:hover {
     margin-top: -1rem;
 }
 .description-agence-introduction{
-    font-size: 20px;
+    font-size: 25px;
 }
 .agence-portefolio-clien{
     font-size: 23px;
@@ -408,6 +408,12 @@ a:hover {
 }
 .police-taille{
     font-size: 16px;
+}
+
+/* FOOTER */
+.footer-paragrpahe{
+    font-size: 2rem;
+    padding-bottom: 5rem;
 }
 
 @media (min-width: 768px) {
@@ -524,7 +530,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 6rem!important;
 }
 
 .icon-lg {
@@ -748,7 +754,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 70rem;
     margin: auto auto auto auto;
 }
 
