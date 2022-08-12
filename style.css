@@ -367,6 +367,11 @@ a:hover {
     border-radius: 4rem;
 }
 
+/*  MENU BARRE CONTACT - ACCEUIL */
+.nav li a:hover {
+    border-bottom: 2px solid #F3976C;
+}
+
 /* Images  transformés en texte */
 .texte-main__description-agence{
     font-size: 2rem;
