@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -392,6 +392,22 @@ a:hover {
 .Projet-contact-modifier{
     font-weight: 900;
     font-size: 3rem;
+}
+
+/* CHANGEMENT BLOC ORANGE */
+.black-police{
+    color: black!important;
+}
+.title-h2{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 900px;
+    font-family: "helvetica";
+    font-size: 2rem;
+}
+.police-taille{
+    font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -713,7 +729,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 725px;
     margin: auto auto auto auto;
 }
 
@@ -785,9 +801,13 @@ h4 {
 }
 
 .black-background {
-   /* background-color: rgba(165, 147, 99, 0.7);*/
    background-color: rgba(145, 129, 86);
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
+    border-radius: 5px;
+    color: rgb(0,0,0);
+    background-color: #F3976C;
+    box-shadow: 0 2px 8px rgb(0 0 0);
+
 }
 
 .bold-link {
