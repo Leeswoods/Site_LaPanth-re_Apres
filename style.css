@@ -361,7 +361,10 @@ a:hover {
     z-index: 2;
 }
 
-/* LOGO PANTHERE ARRONDI => forme de cercle */
+/* VERSION ORDINATEUR */
+
+@media screen and  (min-width:992px) {
+    /* LOGO PANTHERE ARRONDI => forme de cercle */
 .photo-circle{
     border-radius: 4rem;
 }
@@ -434,6 +437,9 @@ a:hover {
 }
 
 /* PAGE CONTACT */
+.logo-page--contact{
+    margin-left: 10rem;
+}
 .acceuil-lien-page--contact{
     font-size: 1.5rem!important;
     margin-right: 12rem;
@@ -454,6 +460,70 @@ li{
 .contact-paragraphe-modif{
     font-size: 1rem!important;
 }
+
+.navbar-toggle{
+    display: none;
+}
+
+/* Logo rond => page contact */
+.box-shadow{
+    box-shadow: 5px 5px 8px #cbcfd5, -5px -5px 8px #eff3f9;
+    border-radius: 50%;
+}
+
+/* Formulaire => page contact */
+form{
+    width: 50%;
+    margin: 40px 0;
+}
+.form-group {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 55px;
+    display: grid;
+}
+label{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    max-width: 100%;
+}
+.form-control{
+    display: block;
+    width: 25rem;
+    height: 3rem;
+    padding: 6px 12px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-formulaire{
+    border: 1px solid black!important;
+    border-radius: 1rem!important;
+    margin-left: 7rem!important;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.text-center{
+    text-align: center;
+}
+.logo-contact{
+    width: 45%;
+}
+.police-écriture-contact{
+    font-size: 1rem;
+}
+
+}
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -498,6 +568,7 @@ li{
         width: 100%;
         text-align: center;
     }
+
 }
 
 .nav > li > .dropdown a {
