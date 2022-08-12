@@ -410,6 +410,11 @@ a:hover {
     font-size: 16px;
 }
 
+/* TITRE WEB DESIGN / STRATEGIE / ILLUSTRATIONS */
+.titre-icon-main{
+    font-weight: 900;
+}
+
 /* PHOTO TITRE PORTEFOLIO */
 .modifier-photo-portefolio{
     font-size: 15px;
