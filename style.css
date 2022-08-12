@@ -410,6 +410,14 @@ a:hover {
     font-size: 16px;
 }
 
+/* PHOTO TITRE PORTEFOLIO */
+.modifier-photo-portefolio{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
 /* FOOTER */
 .footer-paragrpahe{
     font-size: 2rem;
