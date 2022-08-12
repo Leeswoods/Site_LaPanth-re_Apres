@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    position: relative;
 }
 
 .bloc-lg {
@@ -303,7 +304,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    height: 7rem;
+    height: 5rem;
 }
 
 .navbar-brand img[src$=svg] {
@@ -446,6 +447,14 @@ li{
     list-style-type :none;
 }
 
+.contact-paragraphe{
+    font-size: 2rem!important;
+    font-weight: 700;
+}
+.contact-paragraphe-modif{
+    font-size: 1rem!important;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -484,6 +493,10 @@ li{
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+    .col-sm-12{
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -739,7 +752,10 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1900px;
 }
 
 .hero-bloc-text {
