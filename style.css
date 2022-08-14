@@ -361,6 +361,13 @@ a:hover {
     z-index: 2;
 }
 
+/* GENERAL IMAGE */ 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* VERSION ORDINATEUR */
 
 @media screen and  (min-width:992px) {
