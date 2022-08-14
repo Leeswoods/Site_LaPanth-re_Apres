@@ -432,6 +432,10 @@ a:hover {
 
 /* FOOTER */
 .footer-paragrpahe{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.footer-paragrpahe-modifier{
     font-size: 1rem;
     padding-bottom: 1rem;
 }
