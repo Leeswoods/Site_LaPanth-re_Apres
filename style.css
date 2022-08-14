@@ -1031,7 +1031,7 @@ h4 {
         padding-right: 0;
     }
 }
-
+/* VERSION TABLETTE */
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -1039,6 +1039,81 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    
+    /* rajout par moi */
+    .description-agence-introduction{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    h4{
+        font-weight: 600;
+    }
+    .agence-citations {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .tc-white-weight{
+        font-weight: 900;
+    }
+    button#nav-toggle {
+        display: none;
+    }
+    .modification-tablette {
+        padding-right: 2rem;
+    }
+    .modification-tablette li{
+        list-style-type: none;
+    }
+    .modification-tablette li a{
+        text-decoration: none;
+    }
+    .site-navigation {
+        position: absolute;
+        top: 34%;
+        right: 20px;
+    }
+    .hero-bloc-text {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .contact-paragraphe-modif{
+        font-size: 20px;
+    }
+    .form-group {
+        padding-bottom: 5rem;
+        display: grid;
+        font-size: 22px;
+    }
+    label{
+        padding-bottom: 1rem;
+    }
+    input{
+        width: 19rem;
+        font-size: 22px;
+    }
+    textarea#message {
+        width: 35rem;
+        font-size: 22px;
+    }
+    .logo-contact{
+        padding-top: 3rem;
+        height: auto;
+        width: 11rem;
+    }
+    .police-écriture-contact{
+        font-size: 23px;
+    }
+    .scrollToTop{
+        display: none;
+    }
+
+    /* Fin de rajout */
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1212,14 +1287,17 @@ h4 {
     }
     .img-responsive {
         margin: auto;
-        width: 100%;
-        height: 22rem;
+        width: 70%;
+        height: auto;
     }
     h4{
         font-weight: 600;
     }
     .Projet-contact-modifier{
         margin-left: 4rem;
+    }
+    .padding-mobile{
+        padding-left: 5rem;
     }
     .social {
         max-width: 70rem;
