@@ -305,6 +305,7 @@ a:hover {
 .navbar-brand img {
     max-height: 200px;
     height: 5rem;
+    width: 100%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -374,6 +375,8 @@ img{
     /* LOGO PANTHERE ARRONDI => forme de cercle */
 .photo-circle{
     border-radius: 4rem;
+    width: 11rem;
+    height: 11rem;
 }
 
 /*  MENU BARRE CONTACT - ACCEUIL */
