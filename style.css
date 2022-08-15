@@ -532,6 +532,13 @@ label{
     font-size: 1rem;
 }
 
+/* FOOTER => Nom link */
+.social-link{
+    display: flex;
+    flex-direction: column;
+    color: white!important;
+}
+
 }
 
 
@@ -1119,6 +1126,14 @@ h4 {
         display: none;
     }
 
+    /* FOOTER => Nom link */
+        .social-link{
+        display: flex;
+        flex-direction: column;
+        color: white!important;
+    }
+
+
     /* Fin de rajout */
 }
 
@@ -1204,7 +1219,8 @@ h4 {
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
-        width: 100%;
+        margin-left: -3rem;
+        width: 22rem;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
