@@ -412,7 +412,7 @@ img{
 
 /* CHANGEMENT BLOC ORANGE */
 .black-police{
-    color: black!important;
+    color: white!important;
 }
 .title-h2{
     width: 100%;
@@ -655,6 +655,7 @@ button {
 
 .icon-md {
     font-size: 6rem!important;
+    color: white!important;
 }
 
 .icon-lg {
@@ -972,13 +973,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: white;
-    color: black!important;
+    background: #F3976C;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: black!important;
+    color: white!important;
 }
 
 .ltc-white {
