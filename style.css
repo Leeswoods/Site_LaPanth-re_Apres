@@ -1292,7 +1292,7 @@ h4 {
     }
     .black-background{
         padding: 1rem;
-        background-color: #fa5b11;
+        background-color: #fa5b11; /* Couleur background */
     }
     .color-version-mobile{
         color: white!important;
