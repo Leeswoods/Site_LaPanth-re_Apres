@@ -1373,6 +1373,13 @@ h4 {
         display: none;
     }
 
+    /* FOOTER => Nom link */
+    .social-link{
+        display: flex;
+        flex-direction: column;
+        color: white!important;
+    }
+
 
     /* Fin rajout */
     
