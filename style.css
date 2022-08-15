@@ -1379,8 +1379,8 @@ h4 {
     /* FOOTER => Nom link */
     .social-link{
         display: flex;
-        flex-direction: column;
-        color: white!important;
+        flex-direction: column; 
+        color: white!important; /* Couleur */
     }
 
 
