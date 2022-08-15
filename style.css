@@ -952,7 +952,7 @@ h4 {
     padding: 40px;
     border-radius: 5px;
     color: rgb(0,0,0);
-    background-color: #fa5b11; /* Couleur */
+    background-color: #CB4F11; /* Couleur */
     box-shadow: 0 2px 8px rgb(0 0 0);
 
 }
@@ -971,7 +971,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #fa5b11;
+    background-color: #CB4F11;
 }
 
 .tc-white {
@@ -979,7 +979,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #fa5b11;
+    background: #CB4F11;
     color: white!important;
 }
 
@@ -1292,7 +1292,7 @@ h4 {
     }
     .black-background{
         padding: 1rem;
-        background-color: #fa5b11; /* Couleur background */
+        background-color: #CB4F11; /* Couleur background */
     }
     .color-version-mobile{
         color: white!important;
