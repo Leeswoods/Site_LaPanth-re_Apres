@@ -379,8 +379,8 @@ img{
     /* LOGO PANTHERE ARRONDI => forme de cercle */
     .photo-circle{
     border-radius: 4rem;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     }
 
 /*  MENU BARRE CONTACT - ACCEUIL */
@@ -1055,8 +1055,8 @@ h4 {
     /* rajout par moi */
     .photo-circle{
         border-radius: 4rem;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     .description-agence-introduction{
         font-size: 2rem;
@@ -1280,8 +1280,8 @@ h4 {
     }
     .photo-circle{
         border-radius: 4rem;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     #bloc-1-hero h1 {
         font-size: 27px;
