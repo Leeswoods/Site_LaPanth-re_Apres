@@ -304,7 +304,8 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    height: 5rem;
+    width: 320px;
+    height: 59px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1260,7 +1261,8 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 216px;
+        height: 40px;
     }
     .nav-invert .navbar-header {
         float: none;
