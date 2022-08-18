@@ -625,6 +625,9 @@ button {
     font-size: 6rem!important;
     color: white!important;/*Couleur écriture*/
 }
+.icon-description{
+    color: white!important;
+}
 
 .icon-lg {
     font-size: 60px!important;
