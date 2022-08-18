@@ -450,7 +450,7 @@ img{
     padding-bottom: 2rem;
 }
 .footer-paragrpahe-modifier{
-    font-size: 1rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -472,11 +472,11 @@ li{
 }
 
 .contact-paragraphe{
-    font-size: 4rem!important;
+    font-size: 38px!important;
     font-weight: 700;
 }
 .contact-paragraphe-modif{
-    font-size: 2rem!important;
+    font-size: 16px!important;
 }
 
 .navbar-toggle{
@@ -487,54 +487,7 @@ li{
 .box-shadow{
     box-shadow: 5px 5px 8px #cbcfd5, -5px -5px 8px #eff3f9;
     border-radius: 50%;
-}
-
-/* Formulaire => page contact */
-form{
-    width: 50%;
-    margin: 40px 0;
-}
-.form-group {
-    margin: 0 auto;
-    width: 90%;
-    margin-bottom: 55px;
-    display: grid;
-}
-label{
-    margin-bottom: 15px;
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    display: inline-block;
-    max-width: 100%;
-}
-.form-control{
-    display: block;
-    width: 25rem;
-    height: 3rem;
-    padding: 6px 12px;
-    color: #555;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.btn-formulaire{
-    border: 1px solid black!important;
-    border-radius: 1rem!important;
-    margin-left: 7rem!important;
-}
-
-.flex-center{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 40px 0;
-}
-.text-center{
-    text-align: center;
-}
-.police-écriture-contact{
-    font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* FOOTER => Nom link */
@@ -542,6 +495,9 @@ label{
     display: flex;
     flex-direction: column;
     color: white!important;
+}
+.color-icon span {
+    color: white;
 }
 
 }
@@ -1045,6 +1001,10 @@ h4 {
 }
 /* VERSION TABLETTE */
 @media (max-width: 992px) and (min-width: 768px) {
+    /*  MENU BARRE CONTACT - ACCEUIL */
+    .nav li a:hover {
+        border-bottom: 2px solid #F3976C;
+    }
     .navbar .nav {
         max-width: 80%
     }
@@ -1102,30 +1062,6 @@ h4 {
     .contact-paragraphe-modif{
         font-size: 20px;
     }
-    .form-group {
-        padding-bottom: 5rem;
-        display: grid;
-        font-size: 22px;
-    }
-    label{
-        padding-bottom: 1rem;
-    }
-    input{
-        width: 19rem;
-        font-size: 22px;
-    }
-    textarea#message {
-        width: 35rem;
-        font-size: 22px;
-    }
-    .logo-contact{
-        padding-top: 3rem;
-        height: auto;
-        width: 11rem;
-    }
-    .police-écriture-contact{
-        font-size: 23px;
-    }
     .scrollToTop{
         display: none;
     }
@@ -1135,10 +1071,13 @@ h4 {
 
     /* FOOTER => Nom link */
         .social-link{
-        display: flex;
-        flex-direction: column;
-        color: white!important;
-    }
+            display: flex;
+            flex-direction: column;
+            color: white!important;
+        }
+        span.fa.fa-chevron-up {
+            color: white;
+        }
 
 
     /* Fin de rajout */
