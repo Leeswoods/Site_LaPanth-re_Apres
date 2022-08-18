@@ -459,9 +459,9 @@ img{
     margin-left: 10rem;
 }
 .acceuil-lien-page--contact{
-    font-size: 1.5rem!important;
     margin-right: 12rem;
     margin-top: -2rem!important;
+    font-size: 18px!important;
 }
 a{
     text-decoration: none; /* Permet de supprimer la propriété de lien, autrement dit le fait que sa soit souligner */ 
@@ -472,11 +472,11 @@ li{
 }
 
 .contact-paragraphe{
-    font-size: 2rem!important;
+    font-size: 4rem!important;
     font-weight: 700;
 }
 .contact-paragraphe-modif{
-    font-size: 1rem!important;
+    font-size: 2rem!important;
 }
 
 .navbar-toggle{
@@ -1359,21 +1359,19 @@ h4 {
 
 
     .hero-bloc-text {
-        font-size: 33px;
+        font-size: 25px;
         margin-left: 17px;
         color: white!important;
     }
     .contact-paragraphe-modif{
-        margin-left: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
         color: white!important;
     }
     .form-group {
         display: inline-grid;
         padding-bottom: 2rem;
         font-size: 20px;
-    }
-    .logo-contact {
-        padding-left: 4rem;
     }
     .police-écriture-contact{
         padding-left: 3rem!important;
