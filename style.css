@@ -342,9 +342,9 @@ a:hover {
     border: 0px;
 }
 
-/*.navbar-toggle:hover {
+.navbar-toggle:hover {
     background: transparent!important;
-}*/
+}
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
