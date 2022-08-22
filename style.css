@@ -342,9 +342,9 @@ a:hover {
     border: 0px;
 }
 
-.navbar-toggle:hover {
+/*.navbar-toggle:hover {
     background: transparent!important;
-}
+}*/
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
@@ -376,6 +376,17 @@ img{
 /* VERSION ORDINATEUR */
 
 @media screen and  (min-width:992px) {
+    .version-desktop-collapse{
+        display: block!important;
+    }
+    .navbar-nav-modifier{
+        display: flex;
+        flex-direction: row;
+    }
+    .espace-desktop{
+        padding-right: 2rem;
+    }
+
     /* LOGO PANTHERE ARRONDI => forme de cercle */
     .photo-circle{
         border-radius: 4rem;
@@ -390,7 +401,8 @@ img{
 
 /* Images  transformés en texte */
 .texte-main__description-agence{
-    font-size: 2rem;
+    font-size: 20px;
+    margin-left: 38rem;
 }
 .agence-citations{
     font-weight: 600;
@@ -412,7 +424,8 @@ img{
 }
 .Projet-contact-modifier{
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-left: 33.5rem;
 }
 
 /* CHANGEMENT BLOC ORANGE */
@@ -425,7 +438,7 @@ img{
     margin-bottom: 30px;
     max-width: 900px;
     font-family: "helvetica";
-    font-size: 2rem;
+    font-size: 19px;
 }
 .police-taille{
     font-size: 16px;
@@ -446,7 +459,7 @@ img{
 
 /* FOOTER */
 .footer-paragrpahe{
-    font-size: 2rem;
+    font-size: 1rem;
     padding-bottom: 2rem;
 }
 .footer-paragrpahe-modifier{
@@ -481,6 +494,14 @@ li{
 
 .navbar-toggle{
     display: none;
+}
+
+.flex-conctat {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 8rem;
+    margin-left: -15px;
+    justify-content: space-between;
 }
 
 /* Logo rond => page contact */
@@ -622,7 +643,7 @@ button {
 }
 
 .icon-md {
-    font-size: 6rem!important;
+    font-size: 4rem!important;
     color: white!important;/*Couleur écriture*/
 }
 .icon-description{
@@ -1004,6 +1025,16 @@ h4 {
 }
 /* VERSION TABLETTE */
 @media (max-width: 992px) and (min-width: 768px) {
+    .version-desktop-collapse{
+        display: block!important;
+    }
+    .navbar-nav-modifier{
+        display: flex;
+        flex-direction: row;
+    }
+    .espace-desktop{
+        padding-right: 2rem;
+    }
     /*  MENU BARRE CONTACT - ACCEUIL */
     .nav li a:hover {
         border-bottom: 2px solid #F3976C;
@@ -1022,13 +1053,13 @@ h4 {
         height: 150px;
     }
     .description-agence-introduction{
-        font-size: 2rem;
+        font-size: 24px;
     }
     p{
         font-size: 15px;
     }
     h2{
-        font-size: 3rem;
+        font-size: 25px;
         font-weight: 700;
     }
     h3{
@@ -1038,6 +1069,12 @@ h4 {
         font-size: 20px;
         font-weight: 700;
     }
+
+    .paragrpahe-version-tablette{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .tc-white-weight{
         font-weight: 900;
     }
@@ -1059,7 +1096,7 @@ h4 {
         right: 20px;
     }
     .hero-bloc-text {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 700;
     }
     .contact-paragraphe-modif{
@@ -1071,6 +1108,19 @@ h4 {
     .black-police{
         color: white!important;
     }
+
+    .Projet-contact-modifier {
+        margin-left: 13rem;
+    }
+
+    .flex-conctat {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 3px;
+        margin-left: -15px;
+        justify-content: space-between;
+    }
+
 
     /* FOOTER => Nom link */
         .social-link{
@@ -1216,13 +1266,21 @@ h4 {
 
     /* Rajout par moi */
     .navbar-toggle {
-        margin: -45px 10px 0 0;
+        /*margin: -45px 10px 0 0;*/
         border: 0px;
+    }
+    .photo-circle-modifier{
+        border-radius: 4rem;
+        width: 100px;
+        height: 100px;
+        margin-left: 2rem;
     }
     .photo-circle{
         border-radius: 4rem;
         width: 100px;
         height: 100px;
+        margin-left: 8rem;
+        margin-bottom: 1rem;
     }
     #bloc-1-hero h1 {
         font-size: 27px;
@@ -1253,7 +1311,7 @@ h4 {
         padding-right: 15px;
     }
     .ajustement-version-mobile{
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: 800;
     }
     .img-responsive {
@@ -1264,11 +1322,13 @@ h4 {
     h3{
         font-weight: 600;
     }
-    .Projet-contact-modifier{
-        margin-left: 4rem;
+    .version-mobile-projet{
+        margin-left: auto;
+        margin-right: auto;
     }
-    .padding-mobile{
-        padding-left: 5rem;
+    .Projet-contact-modifier{
+        margin-left: auto;
+        margin-right: auto;
     }
     .social {
         max-width: 70rem;
@@ -1320,6 +1380,10 @@ h4 {
     }
     .scrollToTop {
         display: none;
+    }
+
+    .mobile-contact-adresse{
+        margin-left: 15px;
     }
 
     /* FOOTER => Nom link */
