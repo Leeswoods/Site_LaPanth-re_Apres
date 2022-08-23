@@ -393,6 +393,11 @@ img{
         width: 150px;
         height: 150px;
     }
+    .photo-circle-modifier{
+        border-radius: 4rem;
+        width: 150px;
+        height: 150px;
+    }
 
 /*  MENU BARRE CONTACT - ACCEUIL */
 .nav li a:hover {
