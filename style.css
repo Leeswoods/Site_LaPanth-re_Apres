@@ -762,7 +762,6 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
-    top: 20rem;
 }
 
 .close-lightbox {
@@ -1264,6 +1263,18 @@ h4 {
         float: left;
         margin-left: 10px;
     }
+
+    .lightbox-caption {
+        padding: 20px;
+        color: #FFF;
+        background: rgba(0, 0, 0, .5);
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        bottom: 5px;
+        top: 20rem!important;
+    }
+    
 
     /* Rajout par moi */
     .navbar-toggle {
