@@ -762,6 +762,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    top: 20rem;
 }
 
 .close-lightbox {
