@@ -367,7 +367,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-.img-fluid{
+.img-responsive{
     width: 320px;
     height: 320px;
 }
