@@ -1326,7 +1326,7 @@ h4 {
         font-size: 1rem;
         font-weight: 800;
     }
-    .img-fluid {
+    .img-responsive {
         margin: auto;
         width: 320px;
         height: 320px;
