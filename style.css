@@ -367,7 +367,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-.img-responsive{
+.img-fluid{
     width: 320px;
     height: 320px;
 }
@@ -1314,7 +1314,7 @@ h4 {
         font-size: 1rem;
         font-weight: 800;
     }
-    .img-responsive {
+    .img-fluid {
         margin: auto;
         width: 320px;
         height: 320px;
