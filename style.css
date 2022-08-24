@@ -372,10 +372,6 @@ img{
     height: 320px;
 }
 
-/* Footer paragraphe*/
-.paragraphe-footer-contact{
-    display: none;
-}
 
 /* VERSION ORDINATEUR */
 
@@ -528,6 +524,14 @@ li{
 }
 .color-icon span {
     color: white;
+}
+
+.version-desktop-footer{
+    height: 9rem;
+}
+/* Footer paragraphe*/
+.paragraphe-footer-contact{
+    margin-top: 1rem;
 }
 
 }
