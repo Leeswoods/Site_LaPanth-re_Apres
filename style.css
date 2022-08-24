@@ -1361,11 +1361,13 @@ h4 {
     .social {
         max-width: 70rem;
         margin: auto auto auto auto;
-        display: flex;
-        justify-content: space-between;
     }
     .icon-md {
-        font-size: 4rem!important;
+        font-size: 2rem!important;
+    }
+    .version-mobile-icon{
+        display: flex;
+        flex-wrap: initial;
     }
     .navbar-toggle-modifier {
         position: relative;
