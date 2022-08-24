@@ -526,13 +526,14 @@ li{
     color: white;
 }
 
-/*.version-desktop-footer{
+.version-desktop-footer{
     height: 9rem;
-}*/
+}
 /* Footer paragraphe*/
-/*.paragraphe-footer-contact{
+.paragraphe-footer-contact{
     margin-top: 1rem;
-}*/
+    color: white!important;
+}
 
 }
 
@@ -1144,7 +1145,9 @@ h4 {
         span.fa.fa-chevron-up {
             color: white;
         }
-
+        .paragraphe-footer-contact{
+            display: none;
+        }
 
     /* Fin de rajout */
 }
@@ -1416,6 +1419,10 @@ h4 {
         display: flex;
         flex-direction: column; 
         color: white!important; /* Couleur */
+    }
+
+    .paragraphe-footer-contact{
+        display: none;
     }
 
 
