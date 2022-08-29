@@ -376,6 +376,9 @@ img{
 /* VERSION ORDINATEUR */
 
 @media screen and  (min-width:992px) {
+    .bg-banniere {
+        background-image: url("img/agence-la-panthere.webp");
+    }
     .version-desktop-collapse{
         display: block!important;
     }
@@ -1016,9 +1019,7 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 
-.bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
-}
+
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
@@ -1039,6 +1040,9 @@ h4 {
 }
 /* VERSION TABLETTE */
 @media (max-width: 992px) and (min-width: 768px) {
+    .bg-banniere {
+        background-image: url("img/agence-la-panthere.webp");
+    }
     .version-desktop-collapse{
         display: block!important;
     }
@@ -1195,6 +1199,9 @@ h4 {
 
 /* VESION MOBILE */
 @media (max-width: 767px) {
+    .bg-banniere {
+        background-image: url("img/agence-la-panthere-version-mobile.webp");
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
