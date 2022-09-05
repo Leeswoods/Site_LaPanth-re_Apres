@@ -410,7 +410,7 @@ img{
 /* Images  transformés en texte */
 .texte-main__description-agence{
     font-size: 20px;
-    margin-left: 37rem;
+   /* margin-left: 37rem;*/
 }
 .agence-citations{
     font-weight: 600;
@@ -426,6 +426,12 @@ img{
     font-size: 23px;
 }
 
+.padding-dekstop-version{
+    padding-left: 17%;
+    box-sizing: initial;
+    padding-top: 5rem;
+}
+
 /* COULEUR DU TEXTE + TAILLE MODIFIER */
 .tc-white-weight{
     font-weight: 900;
@@ -433,7 +439,8 @@ img{
 .Projet-contact-modifier{
     font-weight: 900;
     font-size: 2rem;
-    margin-left: 33.5rem;
+    margin-left: 30%;
+    margin-right: 29%;
 }
 
 /* CHANGEMENT BLOC ORANGE */
