@@ -486,9 +486,13 @@ img{
 .logo-page--contact{
     margin-left: 10rem;
 }
+.modification-espace{
+    display: flex;
+    flex-direction: row;
+}
 .acceuil-lien-page--contact{
-    margin-right: 12rem;
-    margin-top: -2rem!important;
+    margin-right: 2rem;
+    margin-top: 0rem!important;
     font-size: 18px!important;
 }
 a{
@@ -1141,6 +1145,16 @@ h4 {
         margin-right: 3px;
         margin-left: -15px;
         justify-content: space-between;
+    }
+
+    .modification-espace{
+        display: flex;
+        flex-direction: row;
+    }
+    .acceuil-lien-page--contact{
+        margin-right: 2rem;
+        margin-top: 1rem!important;
+        font-size: 18px!important;
     }
 
 
